@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas503</title>
+    <meta name="description" content="Rutas503 - Proyecto de rutas y transporte en El Salvador">
+</head>
+
+<body>
+    <header>
+        <h1>PLANIFICA TU VIAJE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">🏠 Inicio</a></li>
+                <li><a href="#">📍 Destino</a></li>
+                <li><a href="#">⭐ Favoritos</a></li>
+                <li><a href="#">🛣️ Planifica tu viaje</a></li>
+                <li><a href="#">👥 Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contenido principal de la página -->
+        <section id="formulario-contacto">
+            <fieldset>
+                <legend>Reserva ya!</legend>
+                <form action="/enviar" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" required>
+                    <br><br>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <br><br>
+
+                    <label for="fechas">Fechas de viaje</label>
+                    <input type="date" id="fechas" name="fechas">
+                    <br><br>
+
+                    <label for="num-personas">Número de personas</label>
+                    <input type="number" id="num-personas" name="num-personas" min="1" value="1">
+                    <br><br>
+                    <!-- Colocar destinos de interes -->
+                    <label for="Destinos de Interés">Destinos de Interés</label>
+                    <select name="Destinos de Interés" id="destino">
+                        <option value="1">...</option>
+                        <option value="2">...</option>
+                        <option value="3">...</option>
+                    </select>
+                    <br><br>
+
+
+                    <label for="mensaje">¿Tienes alguna duda? Escríbenos</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                        placeholder="Escribe tu mensaje aquí..."></textarea>
+                    <br><br>
+
+                    <input type="checkbox" name="aceptar" id="acepto que me contacten" required>
+                    <label for="acepto que me contacten">Acepto que me contacten</label>
+                    <br><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Rutas503 · Proyecto del curso Desarrollo Web FullStack Junior</p>
+    </footer>
+</body>
+
+</html>
