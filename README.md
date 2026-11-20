@@ -6,6 +6,7 @@ Portal turístico de El Salvador · Proyecto integrador del curso Desarrollo Web
 | Melo | mr-mel | Rol (Fase 1) 
 | Guillermo | galla113 | Rol (Fase 1) 
 | Jose| jrodriguez764 | Rol (Fase 1) 
+
 ## Usuario objetivo 
 El sitio está dirigido a adultos de diferentes edades, desde jóvenes hasta adultos mayores, que disfrutan viajar, salir de la rutina, conocer nuevos lugares, explorar destinos turísticos y vivir experiencias diferentes.
 

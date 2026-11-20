@@ -11,6 +11,10 @@
 <body>
     <header>
         <h1>Rutas503</h1>
+        <h1>Viaja por El Salvador y haz tuya cada aventura</h1>
+        <figure>
+            <img src="./img/region-el-salvador.jpg" alt="Ruta turística - El Salvador" width="500">
+        </figure>
         <nav>
             <ul>
                 <li><a href="#">🏠 Inicio</a></li>
@@ -18,11 +22,68 @@
                 <li><a href="#">⭐ Favoritos</a></li>
                 <li><a href="#">🛣️ Planifica tu viaje</a></li>
                 <li><a href="#">👥 Nosotros</a></li>
-            </ul>
+            </ul> <br><br>
         </nav>
     </header>
     <main>
-        <!-- Contenido principal de la página -->
+        <section id="busqueda">
+            <h2>Encuentre su destino</h2>
+            <form action="/procesar" method="POST">
+                <input type="text" id="destino" name="destino" placeholder="¿Donde desea visitar?" required>
+                <br><br>
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+        <br><br><br>
+        <section id="regiones">
+            <h2>Regiones turísticas</h2>
+            <ul>
+                <li><a href="#">Ruta de las flores</a></li>
+                <li><a href="#">Santa ana y Lago de Coatepeque</a></li>
+                <li><a href="#">Costa de Bálsamo (Surf City)</a></li>
+                <li><a href="#">Suchitoto y el norte</a></li>
+                <li><a href="#">Ruta de Paz (Morazán)</a></li>
+                <li><a href="#">San Salvador y alrededores</a></li>
+                <li><a href="#">Oriente y Golfo de Fonseca</a></li>
+            </ul>
+        </section>
+        <br><br><br>
+        <section id="destacado">
+            <h2>Destinos Destacados</h2><br>
+            <article id="destacado1">
+                <h3>Lago de Coatepeque</h3>
+                <figure>
+                    <img src="./img/lago-de-coatepeque.jpg" alt="Lago de Coatepeque" width="300">
+                    <figcaption>Lago de Coatepeque</figcaption>
+                </figure>
+                <p>Un lago de origen volcánico con aguas cristalinas que en ciertas épocas toman tonos turquesas, ideal
+                    para deportes acuáticos y gastronomía frente al agua. </p>
+                <a href="#">Ver más</a>
+            </article><br><br>
+            <article id="destacado2">
+                <h3>Playa El Tunco</h3>
+                <figure>
+                    <img src="./img/playa-el-tunco.jpg" alt="Playa El Tunco" width="300">
+                    <figcaption>Playa El Tunco</figcaption>
+                </figure>
+                <p>Uno de los puntos más famosos de la costa salvadoreña, reconocido mundialmente por sus olas para el
+                    surf, su ambiente bohemio y su vida nocturna.</p>
+                <a href="#">Ver más</a>
+            </article><br><br>
+            <article id="destacado3">
+                <h3>Volcan Ilamatepec</h3>
+                <figure>
+                    <img src="./img/volcan-ilamatepec.jpg" alt="Volcan Ilamatepec" width="300">
+                    <figcaption>Volcan Ilamatepec</figcaption>
+                </figure>
+                <p>El volcán más alto del país, famoso por su caminata hacia el cráter que alberga una laguna color
+                    verde esmeralda y vistas panorámicas de la zona</p>
+                <a href="#">Ver más</a>
+            </article>
+        </section><br><br>
+        <section>
+            <h2><a href="#">¡Planifica tu viaje!</a></h2>
+        </section>
     </main>
     <footer>
         <p>&copy; 2026 Rutas503 · Proyecto del curso Desarrollo Web FullStack Junior</p>
